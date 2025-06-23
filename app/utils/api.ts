@@ -1,4 +1,4 @@
-const BASE = 'https://crudcrud.com/api/<YOUR_API_KEY>/tvs';
+const BASE = 'https://crudcrud.com/api/535d1e99d0f0444e95197fcde1ecdbb6/tvs';
 
 export async function listTVs() {
   const res = await fetch(BASE);
